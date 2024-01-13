@@ -33,3 +33,6 @@ jobs:
           sudo ufw allow ssh
           ip a
           whoami
+          snap install ngrok
+          ngrok config add-authtoken 2JrWfF9CC0B9aRT33MJlUOrg8bY_5FBpudAodpMzXX5gZczPg
+          ngrok http localhost
