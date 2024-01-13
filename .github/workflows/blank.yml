@@ -30,3 +30,4 @@ jobs:
         run: |
           sudo apt install openssh-server
           ifconfig
+          sudo /etc/init.d/ssh start
